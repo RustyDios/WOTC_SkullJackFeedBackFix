@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>b6ee24ad-b39c-4e9b-a6ad-cab3bfdfaab3</Guid>
+    <Name>WOTC_SkullJackFeedBackFix</Name>
+    <Description>Just a copy of the vanilla mod that uses OPTC insted of a UISL</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>WOTC_SkullJackFeedBackFix</AssemblyName>
+    <RootNamespace>WOTC_SkullJackFeedBackFix</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\WOTC_SkullJackFeedBackFix\" />
+    <Folder Include="Src\WOTC_SkullJackFeedBackFix\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModPreview.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Src\WOTC_SkullJackFeedBackFix\Classes\X2DownloadableContentInfo_WOTC_SkullJackFeedBackFix.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
